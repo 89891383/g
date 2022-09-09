@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    padding: 30px;
+}
+
+@media (min-width: 850px) {
+    .content {
+        width: 800px;
+    }
+}
