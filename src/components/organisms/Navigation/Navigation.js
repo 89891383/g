@@ -41,7 +41,13 @@ const Navigation = () => {
                 
             </div>
         ) : (
-           <NavItems />
+            <div>
+                <NavItems
+                    itemClassName={styles.item}
+                    activeClassName={styles.active}
+                    type={'desktop'}
+                />
+            </div>
         )}
     </div>
   )

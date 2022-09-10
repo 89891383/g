@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 
 import * as styles from './MobileMenu.module.scss'
 import close from '@images/close.svg'
+import NavItems from '@molecules/NavItems/NavItems'
 
 const MobileMenu = ({setIsMenuOpen}) => {
   return (
@@ -17,21 +18,11 @@ const MobileMenu = ({setIsMenuOpen}) => {
           <img src={close} onClick={() => setIsMenuOpen(false)} />
         </div>
         <div className={styles.content}>
-          <Link
-              to='/' 
-              className={styles.item}
-              activeClassName={styles.active}
-          >Home</Link>
-          <Link
-              to='/projects' 
-              className={styles.item}
-              activeClassName={styles.active}
-          >Projects</Link>
-          <Link
-              to='/uses' 
-              className={styles.item}
-              activeClassName={styles.active}
-          >Uses</Link>
+            <NavItems
+                activeClassName={styles.active}
+                itemClassName={styles.item}
+                type={'mobile'}
+            />
         </div>
     </motion.div>
   )

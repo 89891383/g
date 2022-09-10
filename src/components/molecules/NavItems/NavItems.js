@@ -1,26 +1,22 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import * as styles from '@organisms/Navigation/Navigation.module.scss'
 
-const NavItems = () => {
+import { navItems } from '@src/config/navItems'
+
+const NavItems = ({itemClassName, activeClassName, type}) => {
   return (
-    <div>
-        <Link
-            to='/' 
-            className={styles.item}
-            activeClassName={styles.active}
-        >/</Link>
-        <Link
-            to='/projects' 
-            className={styles.item}
-            activeClassName={styles.active}
-        >/projects</Link>
-        <Link
-            to='/uses' 
-            className={styles.item}
-            activeClassName={styles.active}
-        >/uses</Link>
-    </div>
+    <>
+        {navItems.map(item => {
+            return (
+                <Link
+                    to={item.url}
+                    className={itemClassName}
+                    activeClassName={activeClassName}
+                    key={item.url}
+                >{type == 'desktop' ? item.titleDesktop : item.titleMobile}</Link>
+            )
+        })}
+    </>
   )
 }
 
