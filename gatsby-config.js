@@ -46,5 +46,17 @@ module.exports = {
         "js",
       ],
     }
-  }]
+  },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-THTNFQ6",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+        routeChangeEventName: "gatsby-route-change",
+        enableWebVitalsTracking: true,
+      },
+    },
+
+  ]
 };
