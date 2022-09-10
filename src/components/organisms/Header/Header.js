@@ -7,7 +7,7 @@ import { socials } from '@src/config/socials'
 
 const Header = () => {
     const changeItemBackground = (el, color) => {
-        if (el.nodeName == "A") {
+        if (el.nodeName === "A") {
             el.style.backgroundColor = color;
         } else {
             return false;

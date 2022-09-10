@@ -6,7 +6,6 @@
 }
 
 .item {
-    margin-right: 10px;
     padding: 8px 15px;
     outline: 1px solid white;
     outline-offset: -1px;
@@ -15,10 +14,6 @@
     text-decoration: none;
     font-family: 'Fira Code';
     font-weight: 500;
-    
-    &:last-of-type {
-        margin-right: 0;
-    }
 }
 
 .active {
