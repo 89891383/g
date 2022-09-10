@@ -29,6 +29,7 @@
     "loadash": "^1.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-tooltip": "^4.2.21",
     "sass": "^1.54.8"
   }
 }
