@@ -1,22 +1,22 @@
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 30px;
 }
 
 .item {
-    padding: 8px 15px;
-    outline: 1px solid white;
-    outline-offset: -1px;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Fira Code';
-    font-weight: 500;
+   padding: 8px 15px;
+   outline: 1px solid white;
+   outline-offset: -1px;
+   border-radius: 8px;
+   color: white;
+   text-decoration: none;
+   font-family: "Fira Code";
+   font-weight: 500;
 }
 
 .active {
-    background: linear-gradient(90deg, #9916FF 0%, #424FC2 104.62%);
-    outline: none;
+   background: linear-gradient(90deg, #9916ff 0%, #424fc2 104.62%);
+   outline: none;
 }
