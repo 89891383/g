@@ -5,6 +5,7 @@ import PageTemplate from "@templates/PageTemplate/PageTemplate";
 import Header from "@organisms/Header/Header";
 import About from "@organisms/About/About";
 import Skills from "@organisms/Skills/Skills";
+import Contact from "@organisms/Contact/Contact";
 
 const IndexPage = () => {
    return (
@@ -12,6 +13,8 @@ const IndexPage = () => {
          <Header />
          <About />
          <Skills />
+         <Contact />
+         {/* TODO: Footer */}
       </PageTemplate>
    );
 };
