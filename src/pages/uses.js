@@ -3,7 +3,7 @@ import { SEO } from "@components/SEO";
 import PageTemplate from "@templates/PageTemplate/PageTemplate";
 
 const UsesPage = () => {
-   return <PageTemplate>Uses</PageTemplate>;
+  return <PageTemplate>Uses</PageTemplate>;
 };
 
 export default UsesPage;

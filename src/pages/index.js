@@ -6,17 +6,18 @@ import Header from "@organisms/Header/Header";
 import About from "@organisms/About/About";
 import Skills from "@organisms/Skills/Skills";
 import Contact from "@organisms/Contact/Contact";
+import Footer from "@organisms/Footer/Footer";
 
 const IndexPage = () => {
-   return (
-      <PageTemplate>
-         <Header />
-         <About />
-         <Skills />
-         <Contact />
-         {/* TODO: Footer */}
-      </PageTemplate>
-   );
+  return (
+    <PageTemplate>
+      <Header />
+      <About />
+      <Skills />
+      <Contact />
+      <Footer />
+    </PageTemplate>
+  );
 };
 
 export default IndexPage;

@@ -3,7 +3,7 @@ import { SEO } from "@components/SEO";
 import PageTemplate from "@templates/PageTemplate/PageTemplate";
 
 const ProjectsPage = () => {
-   return <PageTemplate>Projects</PageTemplate>;
+  return <PageTemplate>Projects</PageTemplate>;
 };
 
 export default ProjectsPage;

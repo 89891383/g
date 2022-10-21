@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.copyright {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.logowrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
