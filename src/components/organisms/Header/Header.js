@@ -21,7 +21,6 @@ const Header = () => {
                   className={styles.socialItem}
                   href={item.url}
                   target="_blank"
-                  data-place="top"
                   data-tip={item.name}
                   data-for={item.name}
                 >
