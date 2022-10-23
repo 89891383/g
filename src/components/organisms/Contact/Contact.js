@@ -11,8 +11,14 @@ const Contact = () => {
 
   return (
     <Section title={'Get in touch'}>
-      {/* TODO: Advanced form vaidation */}
-      <form method="GET" data-netlify="true">
+      <form
+        method="GET"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+        name="Contact"
+      >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="Contact" />
         <FormField
           label="E-Mail"
           type="email"
@@ -20,7 +26,6 @@ const Contact = () => {
           value={email}
           setValue={setEmail}
         />
-
         <FormField
           name="Name"
           label="Name / Nickname"
@@ -29,7 +34,6 @@ const Contact = () => {
           value={name}
           setValue={setName}
         />
-
         <FormField
           label="Message"
           type="email"
@@ -39,7 +43,6 @@ const Contact = () => {
           isArea
         />
 
-        {/* TODO Button component */}
         <button className={button.button} type="submit">
           Send Message
         </button>
