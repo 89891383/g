@@ -1,11 +1,13 @@
 .button {
-  padding: 12px 40px;
-  border: none;
-  border-radius: 5px;
+  padding: 11px 30px;
   background-color: #6953a8;
   color: white;
-  font-family: 'Montserrat';
+  font-family: 'Fira Code';
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
   cursor: pointer;
-
-  // TODO Accessibility for button
+  display: inline-block;
+  border-radius: 10px;
+  margin: 5px 5px;
 }

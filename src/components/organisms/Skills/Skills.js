@@ -7,13 +7,13 @@ import SkillsItem from '@atoms/SkillsItem/SkillsItem';
 
 const Skills = () => {
   const [skills, setSkills] = React.useState([]);
+
   return (
     <Section title={'Technologies & Skills'}>
       <SkillsQuery setSkills={setSkills} />
       <div className={styles.wrapper}>
         {skills.map((item) => {
           item = item.node;
-          console.log(item);
 
           return (
             <SkillsItem
