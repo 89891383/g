@@ -14,6 +14,11 @@
   text-decoration: none;
   font-family: 'Fira Code';
   font-weight: 500;
+
+  &:focus {
+    background: linear-gradient(90deg, #9916ff 0%, #424fc2 104.62%);
+    outline: none;
+  }
 }
 
 .active {
