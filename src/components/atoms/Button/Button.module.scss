@@ -10,4 +10,9 @@
   display: inline-block;
   border-radius: 10px;
   margin: 5px 5px;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: #8d76ce;
+  }
 }
