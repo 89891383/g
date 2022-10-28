@@ -9,7 +9,7 @@ const Skills = () => {
   const [skills, setSkills] = React.useState([]);
 
   return (
-    <Section title={'Technologies & Skills'}>
+    <Section title={'Technologie i umiejętności'}>
       <SkillsQuery setSkills={setSkills} />
       <div className={styles.wrapper}>
         {skills.map((item) => {
@@ -20,7 +20,7 @@ const Skills = () => {
               key={item.id}
               imageUrl={item.icon.url}
               name={item.name}
-              level={item.level}
+              level={item.levelName}
               background={item.background.hex}
               text={item.text.hex}
             />

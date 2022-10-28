@@ -5,13 +5,8 @@ export const navItems = [
     url: '/',
   },
   {
-    titleDesktop: '/projects',
-    titleMobile: 'Projects',
+    titleDesktop: '/portfolio',
+    titleMobile: 'Portfolio',
     url: '/projects',
-  },
-  {
-    titleDesktop: '/uses',
-    titleMobile: 'Uses',
-    url: '/uses',
   },
 ];

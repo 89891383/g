@@ -9,8 +9,8 @@ const Header = () => {
   return (
     <div>
       <div className={styles.wrapper}>
-        <h1 className={styles.title}>Welcome, I am Revku!</h1>
-        <p className={styles.subtitle}>front-end developer</p>
+        <h1 className={styles.title}>Witaj na Revku.dev!</h1>
+        <p className={styles.subtitle}>front-end developer & ui designer</p>
 
         <div className={styles.socials}>
           {socials.map((item) => {

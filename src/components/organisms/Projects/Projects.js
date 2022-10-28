@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div>
       <ProjectsQuery setProjects={setProjects} />
-      <h2 className={styles.title}>My Projects</h2>
+      <h2 className={styles.title}>Moje projekty</h2>
 
       {projects.map((item) => {
         item = item.node;

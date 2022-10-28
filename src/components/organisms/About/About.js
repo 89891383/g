@@ -5,7 +5,7 @@ import Section from '@templates/SectionTemplate/SectionTemplate';
 
 const About = () => {
   return (
-    <Section title={'About me'}>
+    <Section title={'O mnie'}>
       <p className={styles.paragraph}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan auctor
         quis ornare in erat faucibus. Morbi ullamcorper magna sed non sociis.

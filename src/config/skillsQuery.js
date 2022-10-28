@@ -11,7 +11,7 @@ const SkillsQuery = ({ setSkills }) => {
               edges {
                 node {
                   id
-                  level
+                  levelName
                   name
                   icon {
                     url

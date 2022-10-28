@@ -16,3 +16,12 @@
     background-color: #8d76ce;
   }
 }
+
+.secondary {
+  background-color: #272c47;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: #2f3453;
+  }
+}

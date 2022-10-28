@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.wrapper}>
       <p className={styles.copyright}>
-        Revku.dev ©️ 2022 | All rights reserved
+        Revku.dev ©️ 2022 | Wszelkie prawa zastrzeżone
       </p>
       <div className={styles.logowrapper}>
         <p className={styles.paragraph}>Powered by</p>

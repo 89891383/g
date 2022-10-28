@@ -1,6 +1,8 @@
 import React from 'react';
 import * as styles from './ProjectsItem.module.scss';
 
+import Button from '@atoms/Button/Button';
+
 const ProjectsItem = ({
   title,
   description,
@@ -14,14 +16,14 @@ const ProjectsItem = ({
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.description}>{description}</p>
         <a href={livePreview} target="_blank" className={styles.button}>
-          Live Preview
+          Odwiedź stronę
         </a>
         <a
           href={sourceCode}
-          className={`${styles.button} ${styles.buttonSecondary}`}
           target="_blank"
+          className={`${styles.button} ${styles.buttonSecondary}`}
         >
-          Source Code
+          Kod źródłowy
         </a>
       </div>
       <div>
