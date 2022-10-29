@@ -6,7 +6,7 @@ const FormField = ({
   value,
   setValue,
   isArea,
-  name = label,
+  name,
   placeholder = label,
   type = 'text',
 }) => {
