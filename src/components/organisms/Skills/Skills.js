@@ -1,9 +1,9 @@
 import React from 'react';
 import * as styles from './Skills.module.scss';
 
-import Section from '@templates/SectionTemplate/SectionTemplate';
+import Section from 'components/templates/SectionTemplate/SectionTemplate';
 import SkillsQuery from '@src/config/skillsQuery';
-import SkillsItem from '@atoms/SkillsItem/SkillsItem';
+import SkillsItem from 'components/atoms/SkillsItem/SkillsItem';
 
 const Skills = () => {
   const [skills, setSkills] = React.useState([]);

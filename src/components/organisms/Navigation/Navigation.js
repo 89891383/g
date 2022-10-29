@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
 import debounce from 'lodash.debounce';
 
-import MobileMenu from '@molecules/MobileMenu/MobileMenu';
-import NavItems from '@molecules/NavItems/NavItems';
+import MobileMenu from 'components/molecules/MobileMenu/MobileMenu';
+import NavItems from 'components/molecules/NavItems/NavItems';
 
 import * as styles from './Navigation.module.scss';
 import logo from '@images/logo.svg';

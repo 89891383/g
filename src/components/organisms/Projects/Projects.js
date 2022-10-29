@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectsQuery from '@src/config/projectsQuery';
 import * as styles from './Projects.module.scss';
 
-import ProjectsItem from '@molecules/ProjectsItem/ProjectsItem';
+import ProjectsItem from 'components/molecules/ProjectsItem/ProjectsItem';
 
 const Projects = () => {
   const [projects, setProjects] = React.useState([]);

@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from './ProjectsItem.module.scss';
 
-import Button from '@atoms/Button/Button';
+import Button from 'components/atoms/Button/Button';
 
 const ProjectsItem = ({
   title,

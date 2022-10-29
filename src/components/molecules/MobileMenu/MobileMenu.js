@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import * as styles from './MobileMenu.module.scss';
 import close from '@images/close.svg';
-import NavItems from '@molecules/NavItems/NavItems';
+import NavItems from 'components/molecules/NavItems/NavItems';
 
 const MobileMenu = ({ setIsMenuOpen }) => {
   return (

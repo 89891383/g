@@ -38,6 +38,7 @@
     "sass": "^1.54.8"
   },
   "devDependencies": {
+    "gatsby-plugin-root-import": "^2.0.8",
     "kill-port": "^2.0.1",
     "watch": "^1.0.2"
   }

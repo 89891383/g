@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Section from '@templates/SectionTemplate/SectionTemplate';
-import FormField from '@atoms/FormField/FormField';
-import Button from '@atoms/Button/Button';
+import Section from 'components/templates/SectionTemplate/SectionTemplate';
+import FormField from 'components/atoms/FormField/FormField';
+import Button from 'components/atoms/Button/Button';
 
 const Contact = () => {
   const [email, setEmail] = React.useState('');

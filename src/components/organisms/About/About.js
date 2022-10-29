@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from './About.module.scss';
 
-import Section from '@templates/SectionTemplate/SectionTemplate';
+import Section from 'components/templates/SectionTemplate/SectionTemplate';
 
 const About = () => {
   return (

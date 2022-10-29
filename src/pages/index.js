@@ -1,12 +1,12 @@
-import React from "react";
-import { SEO } from "@components/SEO";
+import React from 'react';
+import { SEO } from 'components/SEO';
 
-import PageTemplate from "@templates/PageTemplate/PageTemplate";
-import Header from "@organisms/Header/Header";
-import About from "@organisms/About/About";
-import Skills from "@organisms/Skills/Skills";
-import Contact from "@organisms/Contact/Contact";
-import Footer from "@organisms/Footer/Footer";
+import PageTemplate from 'components/templates/PageTemplate/PageTemplate';
+import Header from 'components/organisms/Header/Header';
+import About from 'components/organisms/About/About';
+import Skills from 'components/organisms/Skills/Skills';
+import Contact from 'components/organisms/Contact/Contact';
+import Footer from 'components/organisms/Footer/Footer';
 
 const IndexPage = () => {
   return (

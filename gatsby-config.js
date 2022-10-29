@@ -17,6 +17,7 @@ module.exports = {
     },
     'gatsby-plugin-mdx',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-root-import',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-graphql',
@@ -47,25 +48,6 @@ module.exports = {
         path: './src/pages/',
       },
       __key: 'pages',
-    },
-    {
-      resolve: `gatsby-plugin-alias-imports`,
-      options: {
-        alias: {
-          '@src': 'src',
-          '@components': 'src/components',
-          '@layouts': 'src/layouts',
-          '@images': 'src/images',
-          '@pages': 'src/pages',
-          '@styles': 'src/styles',
-          '@templates': 'src/components/templates',
-          '@atoms': 'src/components/atoms',
-          '@molecules': 'src/components/molecules',
-          '@organisms': 'src/components/organisms',
-          '@utils': 'src/utils',
-        },
-        extensions: ['js'],
-      },
     },
     {
       resolve: 'gatsby-plugin-google-tagmanager',
