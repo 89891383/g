@@ -1,0 +1,62 @@
+/twitter https://twitter.com/revimeister
+/discord https://discord.gg/esXjngFAXZ
+/github/* https://github.com/Revku/:splat
+/opensource/* https://github.com/Revku/:splat
+/steam https://steamcommunity.com/id/therevq
+/devto https://dev.to/revku
+
+# Projects
+/average https://average.revku.dev/
+/password https://password.revku.dev/
+/health https://health.revku.dev/
+/sleep https://sleep.revku.dev/
+/meta https://meta.revku.dev/
+
+/password-checker /password
+/health-center /health
+/healthcenter /health
+/average-calculator /average
+/zdrowie /health
+/centrumzdrowia /health
+/bmi /health
+/whr /health
+/water /health
+/calories /health
+/bmicalculator /health
+/kalkulatorbmi /heath
+/sen /sleep
+/kalkulatorsnu /sleep
+/websitemeta /meta
+/website-meta /meta
+/metatags /meta
+
+# Developers
+/developers /github
+
+# Errors
+/system/404 /404
+
+# HTML5 TEMPLATE
+/template https://github.com/Revku/html5-template
+/html5template /template
+/html5 /template
+/html /template
+
+# CS:GO
+/csgo https://settings.gg/player/1011779621
+/csgo/config /csgo
+/csgo/settings /csgo
+/config /csgo
+
+# Status
+/status https://stats.uptimerobot.com/D0zp1FogGw
+/checkstatus /status
+/uptimerobot /status
+/isworking /status
+
+# VSCODE CONFIG
+/vscode https://howivscode.com/Revku
+/vscode/config /vscode
+/visualstudiocode /vscode
+/vsc /vscode
+/vscconfig /vscode
