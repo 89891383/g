@@ -13,19 +13,18 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobile, setIsMobile] = React.useState(false);
 
-  const handleResize = () => {
-    if (window.innerWidth < 450) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
-
-  window.addEventListener('resize', debounce(handleResize, 150));
-
   useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 450) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
     handleResize();
+    window.addEventListener('resize', debounce(handleResize, 150));
   }, []);
+
   return (
     <div className={styles.wrapper}>
       <div>
