@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Revku.dev - Official Website`,
-    description: `Example project for the Gatsby Head API`,
+    title: `Revku.dev - Oficjalna strona`,
+    description: `Kreatywny front-end developer i UI designer.`,
     twitterUsername: `@revimeister`,
     image: `/icon.png`,
     siteUrl: `https://www.revku.dev`,
@@ -45,7 +45,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: './src/pages/',
+        path: './pages/',
       },
       __key: 'pages',
     },

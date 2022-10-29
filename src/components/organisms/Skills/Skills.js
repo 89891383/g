@@ -3,7 +3,7 @@ import * as styles from './Skills.module.scss';
 
 import Section from 'components/templates/SectionTemplate/SectionTemplate';
 import SkillsQuery from 'hooks/get-skills-data';
-import SkillsItem from 'components/atoms/SkillsItem/SkillsItem';
+import SkillsItem from 'components/molecules/SkillsItem/SkillsItem';
 
 const Skills = () => {
   const [skills, setSkills] = React.useState([]);

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
 import debounce from 'lodash.debounce';
 
-import MobileMenu from 'components/molecules/MobileMenu/MobileMenu';
+import MobileMenu from 'components/organisms/MobileMenu/MobileMenu';
 import NavItems from 'components/molecules/NavItems/NavItems';
 
 import * as styles from './Navigation.module.scss';

@@ -22,29 +22,6 @@
   color: #6953a8;
 }
 
-.socials {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  width: 100%;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-
-.socialItem {
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #272c47;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
 @media (min-width: 800px) {
   .title {
     font-size: 30px;
