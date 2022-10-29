@@ -1,51 +1,12 @@
 import React from 'react';
 
 import Section from 'components/templates/SectionTemplate/SectionTemplate';
-import FormField from 'components/atoms/FormField/FormField';
-import Button from 'components/atoms/Button/Button';
+import ContactForm from 'components/molecules/ContactForm/ContactForm';
 
 const Contact = () => {
-  const [email, setEmail] = React.useState('');
-  const [name, setName] = React.useState('');
-  const [message, setMessage] = React.useState('');
-
   return (
     <Section title={'Kontakt'}>
-      <form
-        method="GET"
-        netlify-honeypot="bot-field"
-        data-netlify="true"
-        name="Contact"
-      >
-        <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="Contact" />
-        <FormField
-          label="Adres E-Mail"
-          name="E-Mail"
-          type="email"
-          placeholder="Gdzie odpisać?"
-          value={email}
-          setValue={setEmail}
-        />
-        <FormField
-          name="Name"
-          label="Imię / Nick"
-          type="email"
-          placeholder="Jak mam się do Ciebie zwracać?"
-          value={name}
-          setValue={setName}
-        />
-        <FormField
-          label="Twoja wiadomość"
-          type="email"
-          placeholder="Co chcesz napsiać?"
-          value={message}
-          setValue={setMessage}
-          isArea
-        />
-
-        <Button isSubmit>Wyślij wiadomość</Button>
-      </form>
+      <ContactForm />
     </Section>
   );
 };

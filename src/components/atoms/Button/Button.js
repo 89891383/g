@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from './Button.module.scss';
 
-const Button = ({ isSubmit, children, isSecondary }) => {
+const Button = ({ isSubmit, children, isSecondary, onClick }) => {
   return (
     <>
       {isSubmit ? (
@@ -10,6 +10,7 @@ const Button = ({ isSubmit, children, isSecondary }) => {
             isSecondary ? styles.secondary : null
           }`}
           type="submit"
+          onClick={onClick}
         >
           {children}
         </button>
@@ -18,6 +19,7 @@ const Button = ({ isSubmit, children, isSecondary }) => {
           className={`${styles.button} ${
             isSecondary ? styles.secondary : null
           }`}
+          onClick={onClick}
         >
           {children}
         </button>

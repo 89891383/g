@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTemplate from 'components/templates/PageTemplate/PageTemplate';
+import { SEO } from 'components/SEO';
 
 const NotFoundPage = () => {
   return (
@@ -11,3 +12,4 @@ const NotFoundPage = () => {
 };
 
 export default NotFoundPage;
+export const Head = () => <SEO title="404" />;
