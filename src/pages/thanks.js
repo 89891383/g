@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import * as styles from 'styles/error.module.scss';
+import { SEO } from 'components/SEO';
 
 import Button from 'components/atoms/Button/Button';
 import Footer from 'components/organisms/Footer/Footer';
@@ -27,3 +28,4 @@ const ThanksPage = () => {
 };
 
 export default ThanksPage;
+export const Head = () => <SEO title="Thanks!" />;
