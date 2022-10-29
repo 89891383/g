@@ -1,7 +1,7 @@
 import React from 'react';
 
 import * as styles from './Footer.module.scss';
-import logo from '@images/textLogo.svg';
+import logo from 'images/textLogo.svg';
 
 const Footer = () => {
   return (

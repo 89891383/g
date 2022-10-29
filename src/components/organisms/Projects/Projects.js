@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectsQuery from '@src/config/projectsQuery';
+import ProjectsQuery from 'hooks/get-projects-data';
 import * as styles from './Projects.module.scss';
 
 import ProjectsItem from 'components/molecules/ProjectsItem/ProjectsItem';

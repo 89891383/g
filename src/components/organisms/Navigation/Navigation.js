@@ -6,8 +6,8 @@ import MobileMenu from 'components/molecules/MobileMenu/MobileMenu';
 import NavItems from 'components/molecules/NavItems/NavItems';
 
 import * as styles from './Navigation.module.scss';
-import logo from '@images/logo.svg';
-import menuicon from '@images/menuicon.svg';
+import logo from 'images/logo.svg';
+import menuicon from 'images/menuicon.svg';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);

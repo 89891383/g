@@ -3,7 +3,7 @@ import ReactTooltip from 'react-tooltip';
 import { motion } from 'framer-motion';
 
 import * as styles from './Header.module.scss';
-import { socials } from '@src/config/socials';
+import { socials } from 'config/socials';
 
 const Header = () => {
   return (

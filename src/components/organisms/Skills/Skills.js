@@ -2,7 +2,7 @@ import React from 'react';
 import * as styles from './Skills.module.scss';
 
 import Section from 'components/templates/SectionTemplate/SectionTemplate';
-import SkillsQuery from '@src/config/skillsQuery';
+import SkillsQuery from 'hooks/get-skills-data';
 import SkillsItem from 'components/atoms/SkillsItem/SkillsItem';
 
 const Skills = () => {

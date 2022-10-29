@@ -1,8 +1,8 @@
-import githubIcon from '@images/socials/github.svg';
-import steamIcon from '@images/socials/steam.svg';
-import twitterIcon from '@images/socials/twitter.svg';
-import devtoIcon from '@images/socials/devto.svg';
-import discordIcon from '@images/socials/discord.svg';
+import githubIcon from 'images/socials/github.svg';
+import steamIcon from 'images/socials/steam.svg';
+import twitterIcon from 'images/socials/twitter.svg';
+import devtoIcon from 'images/socials/devto.svg';
+import discordIcon from 'images/socials/discord.svg';
 
 export const socials = [
   {

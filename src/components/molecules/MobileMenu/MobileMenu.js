@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 
 import * as styles from './MobileMenu.module.scss';
-import close from '@images/close.svg';
+import close from 'images/close.svg';
 import NavItems from 'components/molecules/NavItems/NavItems';
 
 const MobileMenu = ({ setIsMenuOpen }) => {
@@ -15,7 +14,11 @@ const MobileMenu = ({ setIsMenuOpen }) => {
       transition={{ ease: 'easeInOut', duration: 1, times: [0.5, 0.5] }}
     >
       <div className={styles.header}>
-        <img src={close} onClick={() => setIsMenuOpen(false)} />
+        <img
+          src={close}
+          onClick={() => setIsMenuOpen(false)}
+          alt="Zamknij menu"
+        />
       </div>
       <div className={styles.content}>
         <NavItems

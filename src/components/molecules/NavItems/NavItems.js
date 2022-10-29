@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 
 import * as styles from './NavItems.module.scss';
-import { navItems } from '@src/config/navItems';
+import { navItems } from 'config/navItems';
 
 const NavItems = ({ itemClassName, activeClassName, type }) => {
   return (

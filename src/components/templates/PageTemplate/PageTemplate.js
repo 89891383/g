@@ -1,7 +1,7 @@
 import React from 'react';
 import * as styles from './PageTemplate.module.scss';
 
-import '@styles/global.scss';
+import 'styles/global.scss';
 import Navigation from 'components/organisms/Navigation/Navigation';
 
 const PageTemplate = ({ children }) => {
