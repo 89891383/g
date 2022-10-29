@@ -29,13 +29,17 @@ const Navigation = () => {
     <div className={styles.wrapper}>
       <div>
         <Link to="/">
-          <img src={logo} />
+          <img src={logo} alt="Revku Logo" />
         </Link>
       </div>
 
       {isMobile ? (
         <div>
-          <img src={menuicon} onClick={() => setIsMenuOpen(true)} />
+          <img
+            src={menuicon}
+            alt="Otwórz menu"
+            onClick={() => setIsMenuOpen(true)}
+          />
           {isMenuOpen ? <MobileMenu setIsMenuOpen={setIsMenuOpen} /> : null}
         </div>
       ) : (

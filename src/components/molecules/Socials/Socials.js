@@ -8,7 +8,7 @@ const Socials = () => {
   return (
     <div className={styles.wrapper}>
       {socials.map((item) => {
-        return <SocialItem data={item} />;
+        return <SocialItem key={item.name} data={item} />;
       })}
     </div>
   );

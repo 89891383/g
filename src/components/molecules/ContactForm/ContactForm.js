@@ -1,5 +1,4 @@
 import React from 'react';
-import * as styles from './ContactForm.module.scss';
 
 import FormField from 'components/atoms/FormField/FormField';
 import Button from 'components/atoms/Button/Button';
@@ -9,11 +8,17 @@ const ContactForm = () => {
   const [name, setName] = React.useState('');
   const [message, setMessage] = React.useState('');
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    location.href = '/thanks';
+  };
+
   return (
     <form
       netlify-honeypot="bot-field"
       data-netlify="true"
       name="Contact"
+      onSubmit={(event) => handleSubmit(event)}
       method="POST"
     >
       <input type="hidden" name="bot-field" />
@@ -30,7 +35,7 @@ const ContactForm = () => {
       <FormField
         name="Name"
         label="Imię / Nick"
-        type="email"
+        type="text"
         placeholder="Jak mam się do Ciebie zwracać?"
         value={name}
         setValue={setName}
@@ -38,7 +43,7 @@ const ContactForm = () => {
 
       <FormField
         label="Twoja wiadomość"
-        type="email"
+        type="text"
         placeholder="Co chcesz napsiać?"
         value={message}
         setValue={setMessage}

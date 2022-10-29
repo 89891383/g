@@ -1,20 +1,20 @@
 import React from 'react';
-import * as styles from 'styles/error.module.scss';
-import { SEO } from 'components/SEO';
 import { Link } from 'gatsby';
+import * as styles from 'styles/error.module.scss';
 
-import PageTemplate from 'components/templates/PageTemplate/PageTemplate';
 import Button from 'components/atoms/Button/Button';
 import Footer from 'components/organisms/Footer/Footer';
+import PageTemplate from 'components/templates/PageTemplate/PageTemplate';
 
-const NotFoundPage = () => {
+const ThanksPage = () => {
   return (
     <PageTemplate>
       <div className={styles.wrapper}>
         <div className={styles.content}>
-          <h2 className={styles.title}>Ups, wystąpił błąd :(</h2>
+          <h2 className={styles.title}>Wiadomość wysłana!</h2>
           <p className={styles.paragraph}>
-            Wygląda na to, że strona, której szukasz nie istnieje.
+            Twoja wiadomość została przekazana do realizacji. Odpowiem tak
+            szybko jak to możliwe.
           </p>
           <Link to="/">
             <Button>Powrót do strony głównej</Button>
@@ -26,5 +26,4 @@ const NotFoundPage = () => {
   );
 };
 
-export default NotFoundPage;
-export const Head = () => <SEO title="404" />;
+export default ThanksPage;
