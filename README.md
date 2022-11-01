@@ -1,54 +1,54 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://revku.dev/">
+    <img alt="Logo" src="https://raw.githubusercontent.com/Revku/revku.dev/master/src/images/logo.svg?token=GHSAT0AAAAAAB2QE7ZNZ7MSZZDRPTZQWL2AY3BJUQQ" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  Revku.dev - Official Website
 </h1>
+<p align="center">
+  Next version of 
+  <a href="https://revku.dev">revku.dev</a> 
+  built with <b>Gatsby</b> and hosted with <b>Netlify</b>.
+</p>
+<div align="center">
+  <img align="center" src="https://api.netlify.com/api/v1/badges/785cd607-1922-48d9-8c15-e0b72c130b90/deploy-status" />
+</div>
 
-## 🚀 Quick start
+## 💻 Tech stack
 
-1.  **Create a Gatsby site.**
+- React (v18.1.0)
+- Gatsby (v4.22.0)
+- GSAP (v3.11.3)
+- SasS (v1.54.8)
+- loadash (v4.17.21)
+- Hygraph CMS
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## 👋 Instalation
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+1. Clone the repository
+2. Install required dependencies
 
-2.  **Start developing.**
+   ```sh
+   npm install
+   ```
 
-    Navigate into your new site’s directory and start it up.
+3. Start development server
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+   ```sh
+   npm start
+   ```
 
-3.  **Open the code and start customizing!**
+## 🚀 Building and Running for Production
 
-    Your site is now running at http://localhost:8000!
+1. Generate a full static production build
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+   ```sh
+   npm run build
+   ```
 
-4.  **Learn more**
+1. Preview the site as it will appear once deployed
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+   ```sh
+   npm run serve
+   ```
