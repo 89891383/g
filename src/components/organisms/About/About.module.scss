@@ -1,3 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .paragraph {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 132.4%;
+  color: #dfdfdf;
+  max-width: 600px;
+  letter-spacing: 0.01em;
+}
+
+.image {
+  display: none;
+  max-width: 300px;
+}
+
+@media (min-width: 800px) {
+  .image {
+    display: block;
+  }
 }
