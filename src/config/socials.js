@@ -3,6 +3,7 @@ import steamIcon from 'images/socials/steam.svg';
 import twitterIcon from 'images/socials/twitter.svg';
 import devtoIcon from 'images/socials/devto.svg';
 import discordIcon from 'images/socials/discord.svg';
+import mailIcon from 'images/socials/mail.svg';
 
 export const socials = [
   {
@@ -34,5 +35,11 @@ export const socials = [
     icon: devtoIcon,
     url: '/devto',
     hoverColor: '#000',
+  },
+  {
+    name: 'Mail',
+    icon: mailIcon,
+    url: 'mailto:revku@revku.dev',
+    hoverColor: '#d64a3a',
   },
 ];
