@@ -12,7 +12,7 @@ const NavItems = ({ itemClassName, activeClassName, type }) => {
         if (type === 'desktop') {
           return (
             <motion.div
-              whileHover={{ scale: 1.15 }}
+              whileHover={{ y: -3 }}
               className={styles.item}
               style={{ display: 'inline-block' }}
               key={item.url}

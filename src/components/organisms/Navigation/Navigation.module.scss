@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  opacity: 0;
 }
 
 .item {
@@ -17,12 +16,12 @@
   font-weight: 500;
 
   &:focus {
-    background: linear-gradient(90deg, #9916ff 0%, #424fc2 104.62%);
+    background: #6953a8;
     outline: none;
   }
 }
 
 .active {
-  background: linear-gradient(90deg, #9916ff 0%, #424fc2 104.62%);
+  background: #6953a8;
   outline: none;
 }

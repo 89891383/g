@@ -12,17 +12,15 @@ const PageTemplate = ({ children }) => {
     gsap.fromTo(
       wrapperRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1, delay: 1 }
+      { opacity: 1, duration: 1, delay: 0.2 }
     );
   }, []);
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} ref={wrapperRef}>
       <div className={styles.content}>
         <Navigation />
-        <div ref={wrapperRef} className={styles.children}>
-          {children}
-        </div>
+        {children}
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'gatsby';
-import gsap from 'gsap';
 import debounce from 'lodash.debounce';
 
 import MobileMenu from 'components/organisms/MobileMenu/MobileMenu';
@@ -24,12 +23,6 @@ const Navigation = () => {
       }
     };
     handleResize();
-
-    gsap.fromTo(
-      navRef.current,
-      { opacity: 0 },
-      { opacity: 1, duration: 1, delay: 0.5 }
-    );
 
     window.addEventListener('resize', debounce(handleResize, 150));
   }, []);
