@@ -1,12 +1,12 @@
 export const navItems = [
   {
-    titleDesktop: '/',
-    titleMobile: 'Home',
+    titleDesktop: 'Strona Główna',
+    titleMobile: 'Strona Główna',
     url: '/',
   },
   {
-    titleDesktop: '/portfolio',
+    titleDesktop: 'Portfolio',
     titleMobile: 'Portfolio',
-    url: '/projects',
+    url: '/projects/',
   },
 ];

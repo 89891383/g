@@ -12,6 +12,7 @@ import menuicon from 'images/menuicon.svg';
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobile, setIsMobile] = React.useState(false);
+  const navRef = React.useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -22,11 +23,12 @@ const Navigation = () => {
       }
     };
     handleResize();
+
     window.addEventListener('resize', debounce(handleResize, 150));
   }, []);
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} ref={navRef}>
       <div>
         <Link to="/">
           <img src={logo} alt="Revku Logo" />
